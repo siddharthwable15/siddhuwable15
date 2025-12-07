@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My New Website</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar" id="navbar">
+    <div class="logo">NatureSite</div>
+
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+    <li><a href="#about"><i class="fa-solid fa-circle-info"></i> About</a></li>
+    <li><a href="#profile"><i class="fa-solid fa-user"></i> My Profile</a></li>
+    <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+</ul>
+<div class="menu-toggle" id="menuToggle">
+    <i class="fa-solid fa-bars"></i>
+</div>
+    
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="overlay">
+        <h1 class="fade-in">Welcome to My Website</h1>
+        <p class="slide-in">My New Website</p>
+        <a href="#about" class="btn zoom-in">Explore</a>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="about" id="about">
+    <h2 class="section-title">About Us</h2>
+    <p>
+        This website is inspired by the beauty of nature — mountains, oceans,
+        and peaceful landscapes. It is built using HTML, CSS, and animations to
+        create a modern and user-friendly design.
+    </p>
+</section>
+<!-- My Profile Section -->
+<section class="about" id="profile">
+    <h2 class="section-title">My Profile</h2>
+
+    <p>
+        Hi, I am <strong>Siddharth Wable</strong>. I am passionate about technology,
+        web development, and engineering. This website represents my learning journey
+        and projects.
+    </p>
+
+    <a class="profile-link"
+       href="https://www.linkedin.com/in/siddharth-wable-2b1459380?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+       target="_blank">
+        Visit My LinkedIn
+    </a>
+</section> 
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+
+    <form class="contact-form" id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
